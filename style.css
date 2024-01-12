@@ -167,3 +167,32 @@ h1 {
   }
 
 /* PROJECTS */
+.poster-container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster-container img {
+    width: 20rem;
+}
+
+.poster-container .description {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+.poster-container .description p {
+    padding-top: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    padding: 6rem 0 4rem 0;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
