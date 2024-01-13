@@ -57,7 +57,12 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    width: 7rem;
+    text-align: center;
+    border-radius: 15px;
 }
 
 .logo:hover {
@@ -134,6 +139,7 @@ h1 {
 }
 
 .contact-icon img {
+    cursor: pointer;
     width: 2rem;
 }
 
@@ -164,9 +170,11 @@ h1 {
     box-shadow: 0 0 #333;
     color: #fff;
     background-color: #333;
+    cursor: pointer;
   }
 
 /* PROJECTS */
+
 /* LEFT */
 .poster-container-left {
     padding-top: 2rem;
